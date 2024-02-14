@@ -1,4 +1,4 @@
-let btn = document.getElementById("test");
+let btn = document.getElementById("burgerButton");
 let burgerNewAsset = document.querySelector(".burgerNewAsset");
 
 let isBurgerOpen = false;

@@ -6,28 +6,34 @@
     height: 5vh;
 }
 
-.burgerNewAsset img  {
-    width: 50px; 
-    height: 50px; 
+.burgerNewAsset img {
+    width: 50px;
+    height: 50px;
 }
-#test {
-    width: 50px; 
-    height: 50px; 
 
+#burgerButton {
+    width: 50px;
+    height: 50px;
 }
 
 .burgerNewAsset {
     display: flex;
     flex-direction: column;
-    border: 5px solid red;
     position: absolute;
     transform: translateX(-150%);
     transform: translateY(-150%);
     transition: transform .8s linear;
     gap: 50px;
 }
+
 .burgerNewAssetVisible {
     transform: translateX(50%);
     transform: translateY(50%);
+}
 
+.burgerSVGText {
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    font-family: cursive;
 }

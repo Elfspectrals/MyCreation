@@ -1,0 +1,15 @@
+mark {
+    background-color: transparent;
+    background-image: linear-gradient(lightblue,lightblue);
+    background-repeat: no-repeat;
+    animation: highlight 4s linear;
+}
+
+@keyframes highlight {
+    from {
+        background-size: 0;
+    }
+    to {
+        background-size: 100%;
+    }
+}
